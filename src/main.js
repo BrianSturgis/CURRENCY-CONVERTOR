@@ -26,7 +26,7 @@ function getRateMXN(response) {
 function getRateEUR(response) {
   let answer = parseFloat($("#userDollar").val());
   if (response.conversion_rates){
-    $(".output").html(`The exchange rate from USDis ${response.conversion_rates.EUR * answer} EURO's.`);
+    $(".output").html(`The exchange rate from USD is ${response.conversion_rates.EUR * answer} EURO's.`);
   } else {
     $(".outputError").html(`api error message: ${response['error-type']}`);
     $(".output").html(`API response: ${response}`);
