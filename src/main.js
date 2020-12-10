@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import CurrencyConverter from './js/apiscript.js';
 
+
 function getRateJPY(response) {
   let answer = parseFloat($("#userDollar").val());
   if (response.conversion_rates){
