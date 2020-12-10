@@ -1,0 +1,76 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-image: url("./../assets/currency-conv1.jpg");
+  background-color:aqua;
+  background-repeat: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.outputError{
+  position: absolute;
+  color:black;
+  font-style: bold;
+  font-size: 50px;
+  left: 345px;
+  top: 375px;
+}
+.output {
+  position: absolute;
+  color:black;
+  font-style: bold;
+  font-size: 50px;
+  left: 220px;
+  top: 335px;
+}
+#userdollar{
+  position: fixed;
+  left: 1000px;
+  top: 540px;
+  
+  width: 185px;
+  height: 92px;
+  font-size: 60pt;
+  font-family: impact;
+}
+#convert-button1{
+  position: absolute;
+  left: 190px;
+  top: 663px;
+  width: 90px;
+  height: 90px;
+}
+#convert-button2{
+  position: absolute;
+  left: 409px;
+  top: 663px;
+  width: 90px;
+  height: 90px;
+}
+#convert-button3{
+  position: absolute;
+  left: 630px;
+  top: 663px;
+  width: 90px;
+  height: 90px;
+}
+#convert-button4{
+  position: absolute;
+  left: 190px;
+  top: 777px;
+  width: 90px;
+  height: 90px;
+}
+#convert-button5{
+  position: absolute;
+  left: 410px;
+  top: 630px;
+  top: 776;
+  width: 90px;
+  height: 90px;
+}
+
