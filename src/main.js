@@ -100,6 +100,5 @@ $(document).ready(function () {
       event.preventDefault();
       apiRateAUD();
     });
-    
   });
 });
